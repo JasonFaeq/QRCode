@@ -1,0 +1,44 @@
+@font-face {
+    font-family: outfitbold;
+    src: url(fonts/Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: outfitlight;
+    src: url(fonts/Outfit-Light.ttf);
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.qrbox {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 230px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr {
+    width: 220px;
+    border-radius: 10px;
+}
+h1 {
+    font-family: outfitbold;
+    font-size: 18px;
+}
+p {
+    font-family: outfitlight;
+    font-size: 12px;
+}
+.text {
+    margin: 5px 10px;
+}
